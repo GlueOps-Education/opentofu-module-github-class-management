@@ -1,0 +1,1 @@
+# opentofu-module-github-class-management
