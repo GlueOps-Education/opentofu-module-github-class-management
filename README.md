@@ -1,4 +1,3 @@
-# opentofu-module-github-class-management
 <!-- BEGIN_TF_DOCS -->
 # OpenTofu Module: GitHub Class Management Module
 
