@@ -35,7 +35,7 @@ locals {
   repo_matrix = flatten([
     for template in var.repo_templates : [
       for student in var.students : {
-        repo_name      = "${template.prefix}-${student.github_handle}-${student.first_name}-${student.last_name}"
+        repo_name      = "${template.prefix}-${student.first_name}-${student.last_name}"
         template_owner = template.owner
         template_repo  = template.repository
         student_handle = student.github_handle
